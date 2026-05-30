@@ -6,7 +6,6 @@ import SectionHeader from "@/components/SectionHeader";
 
 import { skills } from "@/data/portfolio";
 
-
 const SkillCard = ({ skill }: { skill: Skill }): JSX.Element => (
   <div className="bg-gray-900 border border-gray-800 rounded-xl p-4 hover:border-blue-500/40 hover:bg-gray-900/80 transition">
     <p className="text-sm font-medium text-white">{skill.name}</p>
