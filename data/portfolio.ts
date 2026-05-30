@@ -36,14 +36,14 @@ export const projects: Project[] = [
     lang:  "Python",
     desc:  "Model machine learning untuk mengklasifikasikan risiko kredit pinjaman menggunakan dataset keuangan nyata. Meliputi preprocessing data, feature engineering, dan algoritma klasifikasi seperti Random Forest & XGBoost.",
     href:  "https://github.com/alfianindra/Credit_risk_Classification",
-    image: "/projects/credit-risk.png", 
+    image: "/projects/creditRisk.png", 
   },
   {
     title: "Poutendance",
     lang:  "Dart / Flutter",
     desc:  "Aplikasi mobile manajemen absensi mahasiswa berbasis Flutter. Fitur check-in, rekap kehadiran, dan tampilan UI yang bersih menggunakan Material Design.",
     href:  "https://github.com/alfianindra/Poutendance",
-    image: "/projects/poutendance.png",
+    image: "/projects/poutendance.jpg",
   },
   {
     title: "Areblog Website",
@@ -68,24 +68,18 @@ export const educations: Education[] = [
     year:   "2022 – 2026",
     logo:   "/edu/untar.png", // taruh logo di /public/edu/
   },
-  {
-    school: "DICODING INDONESIA",
-    degree: "Elevalte AI Bootcamp",
-    year:   "2025 – 2026 ",
-    logo:   "/edu/untar.png", // taruh logo di /public/edu/
-  }
 ];
 
 export const experiences: Experience[] = [
   // Isi pengalaman kerja / magang / freelance kamu di sini
   // Contoh:
-  // {
-  //   role:    "Data Analyst Intern",
-  //   company: "PT Contoh Indonesia",
-  //   period:  "Jan 2024 – Jun 2024",
-  //   desc:    "Menganalisis data penjualan menggunakan Python dan membuat dashboard dengan Tableau.",
-  //   logo:    "/exp/contoh.png",
-  // },
+  {
+    role:    "AI Engineer",
+    company: "Dicoding Indonesia",
+    period:  "febuary 2025 – jun 2025",
+    desc:    "Membuat chatbot menggunakan microsoft azure",
+    logo:    "/edu/dicoding.png",
+  },
 ];
 
 export const contactLinks = [

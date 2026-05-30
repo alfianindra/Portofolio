@@ -9,7 +9,7 @@ function EduCard({ edu }: { edu: Education }) {
       {/* Logo institusi — opsional */}
       <div className="w-14 h-14 rounded-xl bg-gray-800 border border-gray-700 flex items-center justify-center shrink-0 overflow-hidden">
         {edu.logo ? (
-          <Image src={edu.logo} width={56} height={56} alt={edu.school} className="object-contain" />
+          <Image src={edu.logo} width={70} height={70} alt={edu.school} className="object-cover"/>
         ) : (
           <span className="text-2xl">🎓</span>
         )}
