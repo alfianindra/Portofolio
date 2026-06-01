@@ -76,7 +76,7 @@ export const experiences: Experience[] = [
   {
     role:    "AI Engineer",
     company: "Dicoding Indonesia",
-    period:  "febuary 2025 – jun 2025",
+    period:  "febuary 2025 – jul 2025",
     desc:    "Membuat chatbot menggunakan microsoft azure",
     logo:    "/edu/dicoding.png",
   },
