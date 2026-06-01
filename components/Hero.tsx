@@ -65,7 +65,7 @@ export default function Hero() {
       <div className="shrink-0 relative">
         <div className="w-52 h-52 md:w-64 md:h-64 rounded-3xl overflow-hidden border-2 border-gray-800 relative">
           <Image
-            src="/pasfoto.jpg"
+            src="/Portofolio/pasfoto.jpg"
             fill
             alt="Alfian Indrajaya"
             className="object-cover"
