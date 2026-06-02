@@ -36,28 +36,28 @@ export const projects: Project[] = [
     lang:  "Python",
     desc:  "Model machine learning untuk mengklasifikasikan risiko kredit pinjaman menggunakan dataset keuangan nyata. Meliputi preprocessing data, feature engineering, dan algoritma klasifikasi seperti Random Forest & XGBoost.",
     href:  "https://github.com/alfianindra/Credit_risk_Classification",
-    image: "/projects/creditRisk.png", 
+    image: "/Portofolio/projects/creditRisk.png", 
   },
   {
     title: "Poutendance",
     lang:  "Dart / Flutter",
     desc:  "Aplikasi mobile manajemen absensi mahasiswa berbasis Flutter. Fitur check-in, rekap kehadiran, dan tampilan UI yang bersih menggunakan Material Design.",
     href:  "https://github.com/alfianindra/Poutendance",
-    image: "/projects/poutendance.jpg",
+    image: "/Portofolio/projects/poutendance.jpg",
   },
   {
     title: "Areblog Website",
     lang:  "Node.js / EJS",
     desc:  "Platform blog full-stack dengan Node.js dan EJS. Mendukung CRUD artikel, autentikasi pengguna, dan server-side rendering untuk performa optimal.",
     href:  "https://github.com/alfianindra/Areblog-Website",
-    image: "/projects/areblog.png",
+    image: "/Portofolio/projects/areblog.png",
   },
   {
     title: "Instodrum",
     lang:  "Dart / Flutter",
     desc:  "Aplikasi replica dari instagram.",
     href:  "https://github.com/alfianindra/Instodrum_project",
-    image: "/projects/instodrum.png",
+    image: "/Portofolio/projects/instodrum.png",
   },
 ];
 
@@ -66,7 +66,7 @@ export const educations: Education[] = [
     school: "Universitas Tarumanagara",
     degree: "S1 Teknik Informatika",
     year:   "2022 – 2026",
-    logo:   "/edu/untar.png", // taruh logo di /public/edu/
+    logo:   "/Portofolio/edu/untar.png", // taruh logo di /public/edu/
   },
 ];
 
@@ -78,7 +78,7 @@ export const experiences: Experience[] = [
     company: "Dicoding Indonesia",
     period:  "febuary 2025 – jul 2025",
     desc:    "Membuat chatbot menggunakan microsoft azure",
-    logo:    "/edu/dicoding.png",
+    logo:    "/Portofolio/edu/dicoding.png",
   },
 ];
 
